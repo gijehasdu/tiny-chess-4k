@@ -6,7 +6,7 @@
 
 [![Reward](https://make.fun/badge/tiny-chess-01/gijehasdu/tiny-chess-4k/reward.svg)](https://make.fun/bounty/tiny-chess-01)
 
-A complete chess engine in 4,091 bytes of Python. main.py is the whole file.
+A complete chess engine in 4,093 bytes of Python. main.py is the whole file.
 
 The engine uses a 0x88 board and alpha-beta search with PVS, a transposition table, null-move pruning, late-move reductions and check extensions. Capture quiescence uses delta pruning. Evaluation tracks material and piece-square values incrementally, with a tapered king, passed-pawn bonuses and a tempo bonus for the side to move.
 
@@ -29,4 +29,4 @@ Entered on [make.fun](https://make.fun/?ref=r990r6j8&utm_source=github&utm_mediu
 ## Verification
 
 - Perft: 197,281 (start position, depth 4) and 97,862 (Kiwipete, depth 3).
-- Packed main.py is 4,091 bytes, and the tempo change shifted the start-position evaluation from 0 to +10 with move generation unchanged.
+- Packed main.py is 4,093 bytes, and the tempo change shifted the start-position evaluation from 0 to +10 with move generation unchanged.
