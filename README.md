@@ -9,7 +9,7 @@ A complete chess engine in 4,084 bytes of Python (`main.py`, the whole file).
 pruning, late-move reductions and check extensions, plus capture quiescence
 with delta pruning. Evaluation is incremental material + piece-square tables
 with a tapered king, bishop pair and passed-pawn bonuses. The readable source
-was rebuilt and re-verified (perft 197,281 / 97,862); it is minified,
+was rebuilt, re-verified and re-packed (perft 197,281 / 97,862); it is minified,
 lzma-compressed and base85-encoded into the single file; the stub at the top
 unpacks and runs it. Fully deterministic: a fixed node budget
 (40,000 nodes per move), no clock, no randomness — same position and history,
